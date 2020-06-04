@@ -1,5 +1,3 @@
-# this is the index.md file
-
 This is waternumbers CRAN-style repository for authored packages either are either not on CRAN or have been updated since the last CRAN release.
 
 This allows users to install development versions of our software without specialized functions such as install_github(), allows dependencies not hosted on CRAN to still be resolved automatically, and permits the use of update.packages().
