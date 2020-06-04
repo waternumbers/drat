@@ -1,0 +1,9 @@
+Package: dynatop
+Version: 0.13
+Depends: R (>= 3.5.0)
+Imports: R6, zoo, xts, Rcpp
+LinkingTo: Rcpp
+Suggests: raster, knitr, rmarkdown, covr, bookdown
+License: GPL-2
+MD5sum: 449bd9df164014214a35ca418a2ee51f
+NeedsCompilation: yes
