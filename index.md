@@ -7,8 +7,12 @@ Using the repository
 
 To use, simply add waternumbers.github.io/drat to your existing list of R repos, such as:
 
+```r
 options(repos = c("https://waternumbers.github.io/drat", getOption("repos"))
+```
 
 (If you don’t have any default CRAN mirrors selected yet by getOption("repos"), you may want to add one now). You can also include this line in specific install.packages() requests:
 
+```r
 install.packages("dynatop", repos = c("https://waternumbers.github.io/drat", "http://cran.rstudio.com"))
+```
