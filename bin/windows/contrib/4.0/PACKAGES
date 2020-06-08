@@ -12,3 +12,10 @@ Version: 0.0.1
 Depends: R (>= 3.1)
 Suggests: knitr, rmarkdown, pkgdown
 License: GPL-2
+
+Package: dynatopGIS
+Version: 0.1.1
+Depends: R (>= 3.1)
+Imports: R6, raster, sp, rgeos, rgdal, methods, igraph
+Suggests: knitr, rmarkdown, covr, pkgdown, dynatopData
+License: GPL-2

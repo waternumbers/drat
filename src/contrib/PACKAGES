@@ -15,3 +15,12 @@ Suggests: knitr, rmarkdown, pkgdown
 License: GPL-2
 MD5sum: 63afbdaa4a46f6176939e4a2b8060593
 NeedsCompilation: no
+
+Package: dynatopGIS
+Version: 0.1.1
+Depends: R (>= 3.1)
+Imports: R6, raster, sp, rgeos, rgdal, methods, igraph
+Suggests: knitr, rmarkdown, covr, pkgdown, dynatopData
+License: GPL-2
+MD5sum: 731b7e4773e4776741eb5fc6e90e6e41
+NeedsCompilation: no

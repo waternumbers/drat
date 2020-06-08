@@ -14,3 +14,9 @@ options(repos = c("https://waternumbers.github.io/drat", getOption("repos"))
 ```r
 install.packages("dynatop", repos = c("https://waternumbers.github.io/drat", "http://cran.rstudio.com"))
 ```
+
+To see all the available packages for your system use 
+
+```r
+available.packages(contrib.url( "https://waternumbers.github.io/drat/", "both"))[,c("Package","Version")]
+```
