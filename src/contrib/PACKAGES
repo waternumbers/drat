@@ -7,3 +7,11 @@ Suggests: raster, knitr, rmarkdown, covr, bookdown
 License: GPL-2
 MD5sum: 449bd9df164014214a35ca418a2ee51f
 NeedsCompilation: yes
+
+Package: dynatopData
+Version: 0.0.1
+Depends: R (>= 3.1)
+Suggests: knitr, rmarkdown, pkgdown
+License: GPL-2
+MD5sum: 63afbdaa4a46f6176939e4a2b8060593
+NeedsCompilation: no
