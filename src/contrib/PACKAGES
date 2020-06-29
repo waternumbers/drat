@@ -24,3 +24,12 @@ Suggests: knitr, rmarkdown, covr, pkgdown, dynatopData
 License: GPL-2
 MD5sum: 731b7e4773e4776741eb5fc6e90e6e41
 NeedsCompilation: no
+
+Package: FKF
+Version: 0.1.7
+Depends: R(>= 2.8)
+Imports: graphics
+Suggests: RUnit, knitr, rmarkdown, covr, pkgdown
+License: GPL (>= 2)
+MD5sum: fb56ea513eb748cf225cb8d2f3adaa26
+NeedsCompilation: yes

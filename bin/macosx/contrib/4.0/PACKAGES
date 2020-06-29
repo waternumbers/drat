@@ -21,3 +21,11 @@ Imports: R6, raster, sp, rgeos, rgdal, methods, igraph
 Suggests: knitr, rmarkdown, covr, pkgdown, dynatopData
 License: GPL-2
 MD5sum: f438c61ed5fd76aa6e042abc4b62351c
+
+Package: FKF
+Version: 0.1.7
+Depends: R(>= 2.8)
+Imports: graphics
+Suggests: RUnit, knitr, rmarkdown, covr, pkgdown
+License: GPL (>= 2)
+MD5sum: 4e0ecdecdc75192a5c57601c609ed760
