@@ -8,6 +8,16 @@ License: GPL-2
 MD5sum: e0d7e89f5e079b028b8165e821664f37
 NeedsCompilation: yes
 
+Package: dynatop
+Version: 0.2.0.9000
+Depends: R (>= 3.5.0)
+Imports: R6, zoo, xts, Rcpp
+LinkingTo: Rcpp, BH
+Suggests: raster, knitr, rmarkdown, covr, bookdown, pkgdown
+License: GPL-2
+MD5sum: a47c1ccb3173ffe8a492d08b98f14ae7
+NeedsCompilation: yes
+
 Package: dynatopData
 Version: 0.0.1
 Depends: R (>= 3.1)
@@ -23,6 +33,15 @@ Imports: R6, raster, sp, rgeos, rgdal, methods, igraph
 Suggests: knitr, rmarkdown, covr, pkgdown, dynatopData
 License: GPL-2
 MD5sum: 731b7e4773e4776741eb5fc6e90e6e41
+NeedsCompilation: no
+
+Package: dynatopGIS
+Version: 0.2.0.9000
+Depends: R (>= 3.1)
+Imports: R6, raster, sp, rgeos, rgdal, methods, igraph
+Suggests: knitr, rmarkdown, covr, pkgdown, dynatopData
+License: GPL-2
+MD5sum: 19fa2f9955e9f0de04cff0e26aeb3278
 NeedsCompilation: no
 
 Package: FKF
