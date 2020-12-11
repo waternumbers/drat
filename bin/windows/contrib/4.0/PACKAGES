@@ -36,6 +36,13 @@ Imports: R6, raster, sp, rgeos, rgdal, methods, igraph
 Suggests: knitr, rmarkdown, covr, pkgdown, dynatopData
 License: GPL-2
 
+Package: dynatopGIS
+Version: 0.2.0.9001
+Depends: R (>= 3.1)
+Imports: R6, raster, sp, rgeos, rgdal, methods, igraph
+Suggests: knitr, rmarkdown, covr, pkgdown, dynatopData
+License: GPL-2
+
 Package: FKF
 Version: 0.1.7
 Depends: R(>= 2.8)
