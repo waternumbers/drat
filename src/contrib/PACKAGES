@@ -80,3 +80,12 @@ Suggests: RUnit, knitr, rmarkdown, covr, pkgdown
 License: GPL (>= 2)
 MD5sum: fb56ea513eb748cf225cb8d2f3adaa26
 NeedsCompilation: yes
+
+Package: FKF
+Version: 0.2.0.9000
+Depends: R(>= 2.8)
+Imports: graphics
+Suggests: RUnit, knitr, rmarkdown, covr, pkgdown
+License: GPL (>= 2)
+MD5sum: efa98054be26a97757362edac0a922f0
+NeedsCompilation: yes
