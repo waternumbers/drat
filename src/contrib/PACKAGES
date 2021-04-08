@@ -33,9 +33,9 @@ Version: 0.2.0.9030
 Depends: R (>= 3.5.0)
 Imports: R6, zoo, xts, Rcpp
 LinkingTo: Rcpp, BH
-Suggests: raster, knitr, rmarkdown, covr, bookdown, pkgdown
+Suggests: raster, rgdal, knitr, rmarkdown, covr, bookdown, pkgdown
 License: GPL-2
-MD5sum: 2d2ad04a410536c8d9b3ccadde93af10
+MD5sum: d8a2c0c964866f5c83bef6ffcbf68743
 NeedsCompilation: yes
 
 Package: dynatopData
