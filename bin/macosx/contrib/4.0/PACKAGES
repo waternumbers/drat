@@ -1,11 +1,11 @@
 Package: dynatop
-Version: 0.2.0.9030
+Version: 0.2.0.9035
 Depends: R (>= 3.5.0)
 Imports: R6, zoo, xts, Rcpp
 LinkingTo: Rcpp, BH
 Suggests: raster, rgdal, knitr, rmarkdown, covr, bookdown, pkgdown
 License: GPL-2
-MD5sum: da1a222012e585ceff6d7854af47f8be
+MD5sum: 9fc859a710440e772304c93469de3bc0
 
 Package: dynatopData
 Version: 0.0.1
