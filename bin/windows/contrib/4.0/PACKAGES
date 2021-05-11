@@ -49,17 +49,9 @@ Suggests: knitr, rmarkdown, covr, pkgdown, dynatopData
 License: GPL-2
 
 Package: FKF
-Version: 0.1.7
+Version: 0.2.0.9010
 Depends: R(>= 2.8)
 Imports: graphics
-Suggests: RUnit, knitr, rmarkdown, covr, pkgdown
-License: GPL (>= 2)
-Archs: i386, x64
-
-Package: FKF
-Version: 0.2.0.9000
-Depends: R(>= 2.8)
-Imports: graphics
-Suggests: RUnit, knitr, rmarkdown, covr, pkgdown
+Suggests: knitr, rmarkdown, covr, pkgdown, testthat (>= 3.0.0)
 License: GPL (>= 2)
 Archs: i386, x64
