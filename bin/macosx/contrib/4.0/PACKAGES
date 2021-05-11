@@ -5,7 +5,7 @@ Imports: R6, zoo, xts, Rcpp
 LinkingTo: Rcpp, BH
 Suggests: raster, rgdal, knitr, rmarkdown, covr, bookdown, pkgdown
 License: GPL-2
-MD5sum: 9fc859a710440e772304c93469de3bc0
+MD5sum: 7ea65a5ec0ce2ae53ad7211041221536
 
 Package: dynatopData
 Version: 0.0.1

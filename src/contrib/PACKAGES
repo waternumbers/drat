@@ -1,51 +1,11 @@
 Package: dynatop
-Version: 0.1.3.2
-Depends: R (>= 3.5.0)
-Imports: R6, zoo, xts, Rcpp
-LinkingTo: Rcpp
-Suggests: raster, knitr, rmarkdown, covr, bookdown, pkgdown
-License: GPL-2
-MD5sum: e0d7e89f5e079b028b8165e821664f37
-NeedsCompilation: yes
-
-Package: dynatop
-Version: 0.2.0.9000
-Depends: R (>= 3.5.0)
-Imports: R6, zoo, xts, Rcpp
-LinkingTo: Rcpp, BH
-Suggests: raster, knitr, rmarkdown, covr, bookdown, pkgdown
-License: GPL-2
-MD5sum: a47c1ccb3173ffe8a492d08b98f14ae7
-NeedsCompilation: yes
-
-Package: dynatop
-Version: 0.2.0.9020
-Depends: R (>= 3.5.0)
-Imports: R6, zoo, xts, Rcpp
-LinkingTo: Rcpp, BH
-Suggests: raster, knitr, rmarkdown, covr, bookdown, pkgdown
-License: GPL-2
-MD5sum: 33f2bd36d517f2e80465f3c41113454a
-NeedsCompilation: yes
-
-Package: dynatop
-Version: 0.2.0.9030
-Depends: R (>= 3.5.0)
-Imports: R6, zoo, xts, Rcpp
-LinkingTo: Rcpp, BH
-Suggests: raster, rgdal, knitr, rmarkdown, covr, bookdown, pkgdown
-License: GPL-2
-MD5sum: d8a2c0c964866f5c83bef6ffcbf68743
-NeedsCompilation: yes
-
-Package: dynatop
 Version: 0.2.0.9035
 Depends: R (>= 3.5.0)
 Imports: R6, zoo, xts, Rcpp
 LinkingTo: Rcpp, BH
 Suggests: raster, rgdal, knitr, rmarkdown, covr, bookdown, pkgdown
 License: GPL-2
-MD5sum: 99b33fd7827e0e5ca0d1045f4bc3f950
+MD5sum: 45c0be0d1a13dd28f3a4fa8da36c800d
 NeedsCompilation: yes
 
 Package: dynatopData
