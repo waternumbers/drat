@@ -8,6 +8,16 @@ License: GPL-2
 MD5sum: 45c0be0d1a13dd28f3a4fa8da36c800d
 NeedsCompilation: yes
 
+Package: dynatop
+Version: 0.2.0.9036
+Depends: R (>= 3.5.0)
+Imports: R6, zoo, xts, Rcpp
+LinkingTo: Rcpp, BH
+Suggests: raster, rgdal, knitr, rmarkdown, covr, bookdown, pkgdown
+License: GPL-2
+MD5sum: 04184473827b4ba721a4685b0603ae77
+NeedsCompilation: yes
+
 Package: dynatopData
 Version: 0.0.1
 Depends: R (>= 3.1)

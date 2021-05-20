@@ -1,0 +1,8 @@
+Package: dynatop
+Version: 0.2.0.9036
+Depends: R (>= 3.5.0)
+Imports: R6, zoo, xts, Rcpp
+LinkingTo: Rcpp, BH
+Suggests: raster, rgdal, knitr, rmarkdown, covr, bookdown, pkgdown
+License: GPL-2
+Archs: i386, x64
