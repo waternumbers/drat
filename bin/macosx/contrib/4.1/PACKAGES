@@ -6,4 +6,4 @@ LinkingTo: Rcpp, BH
 Suggests: raster, rgdal, knitr, rmarkdown, covr, bookdown, pkgdown,
         testthat (>= 3.0.0)
 License: GPL-2
-MD5sum: 03cd5ffbb0322c99da4b458619581515
+MD5sum: 4f417fafbe4bffcd9edd5239dca3e42a
