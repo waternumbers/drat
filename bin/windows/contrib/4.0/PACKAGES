@@ -1,5 +1,5 @@
 Package: dynatop
-Version: 0.2.0.9040
+Version: 0.2.0.9041
 Depends: R (>= 3.5.0)
 Imports: R6, zoo, xts, Rcpp
 LinkingTo: Rcpp, BH
