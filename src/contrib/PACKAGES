@@ -121,3 +121,12 @@ Suggests: knitr, rmarkdown, covr, pkgdown, testthat (>= 3.0.0)
 License: GPL (>= 2)
 MD5sum: 4f7ef0401de94c63999bece629e38c05
 NeedsCompilation: yes
+
+Package: wmts
+Version: 0.0.0.9002
+Depends: R (>= 4.1.0),
+Imports: terra, png, svglite
+Suggests: knitr, rmarkdown, pkgdown, testthat (>= 3.0.0)
+License: MIT + file LICENSE
+MD5sum: b49a73d5b958e952277012940df2c7bc
+NeedsCompilation: no
