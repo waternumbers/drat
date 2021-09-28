@@ -28,3 +28,11 @@ Depends: R (>= 3.1)
 Imports: R6, raster, sp, rgeos, rgdal, methods, igraph
 Suggests: knitr, rmarkdown, covr, pkgdown, dynatopData
 License: GPL-2
+
+Package: FKF
+Version: 0.2.1
+Depends: R(>= 2.8)
+Imports: graphics
+Suggests: knitr, rmarkdown, covr, pkgdown, testthat (>= 3.0.0)
+License: GPL (>= 2)
+Archs: i386, x64
