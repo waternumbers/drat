@@ -8,6 +8,16 @@ Suggests: raster, rgdal, knitr, rmarkdown, covr, bookdown, pkgdown,
 License: GPL-2
 Archs: i386, x64
 
+Package: dynatop
+Version: 0.2.0.9200
+Depends: R (>= 4.0.0)
+Imports: R6, zoo, xts, Rcpp
+LinkingTo: Rcpp
+Suggests: raster, rgdal, knitr, rmarkdown, covr, bookdown, pkgdown,
+        testthat (>= 3.0.0)
+License: GPL-2
+Archs: i386, x64
+
 Package: dynatopGIS
 Version: 0.2.0.9032
 Depends: R (>= 3.1)
@@ -31,6 +41,14 @@ License: GPL-2
 
 Package: FKF
 Version: 0.2.1
+Depends: R(>= 2.8)
+Imports: graphics
+Suggests: knitr, rmarkdown, covr, pkgdown, testthat (>= 3.0.0)
+License: GPL (>= 2)
+Archs: i386, x64
+
+Package: FKF
+Version: 0.2.2
 Depends: R(>= 2.8)
 Imports: graphics
 Suggests: knitr, rmarkdown, covr, pkgdown, testthat (>= 3.0.0)

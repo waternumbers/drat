@@ -8,6 +8,16 @@ Suggests: raster, rgdal, knitr, rmarkdown, covr, bookdown, pkgdown,
 License: GPL-2
 MD5sum: 9465966ae85012b6324882f2028742ad
 
+Package: dynatop
+Version: 0.2.0.9200
+Depends: R (>= 4.0.0)
+Imports: R6, zoo, xts, Rcpp
+LinkingTo: Rcpp
+Suggests: raster, rgdal, knitr, rmarkdown, covr, bookdown, pkgdown,
+        testthat (>= 3.0.0)
+License: GPL-2
+MD5sum: 96a8ab1521f2b73b7d3f805d58de7a33
+
 Package: dynatopGIS
 Version: 0.2.0.9032
 Depends: R (>= 3.1)
@@ -32,6 +42,14 @@ Suggests: knitr, rmarkdown, covr, pkgdown, dynatopData
 License: GPL-2
 MD5sum: 6fee003eb4f2d71e9f86eaf911f0a759
 
+Package: dynatopGIS
+Version: 0.2.1
+Depends: R (>= 4.0.0)
+Imports: R6, raster, rgeos, methods, jsonlite
+Suggests: rgdal, igraph, knitr, rmarkdown, covr, pkgdown
+License: GPL-2
+MD5sum: 46a02f2c44a5509c9538358c69760c61
+
 Package: FKF
 Version: 0.2.1
 Depends: R(>= 2.8)
@@ -39,3 +57,11 @@ Imports: graphics
 Suggests: knitr, rmarkdown, covr, pkgdown, testthat (>= 3.0.0)
 License: GPL (>= 2)
 MD5sum: 91629f07bc127cc69c32825b2e87be54
+
+Package: FKF
+Version: 0.2.2
+Depends: R(>= 2.8)
+Imports: graphics
+Suggests: knitr, rmarkdown, covr, pkgdown, testthat (>= 3.0.0)
+License: GPL (>= 2)
+MD5sum: 66ffa8e8951d714a05154a85b30bbb4c
