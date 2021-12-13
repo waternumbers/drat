@@ -209,6 +209,15 @@ License: GPL (>= 2)
 MD5sum: 0e641c26fb47022af79a2ed5a46fed91
 NeedsCompilation: yes
 
+Package: FKF
+Version: 0.2.3
+Depends: R(>= 2.8)
+Imports: graphics
+Suggests: knitr, rmarkdown, covr, pkgdown, testthat (>= 3.0.0)
+License: GPL (>= 2)
+MD5sum: 57719097ec769209d87fb2a72ec05ffe
+NeedsCompilation: yes
+
 Package: wmts
 Version: 0.0.0.9002
 Depends: R (>= 4.1.0),

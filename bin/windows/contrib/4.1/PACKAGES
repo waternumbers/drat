@@ -54,3 +54,11 @@ Imports: graphics
 Suggests: knitr, rmarkdown, covr, pkgdown, testthat (>= 3.0.0)
 License: GPL (>= 2)
 Archs: i386, x64
+
+Package: FKF
+Version: 0.2.3
+Depends: R(>= 2.8)
+Imports: graphics
+Suggests: knitr, rmarkdown, covr, pkgdown, testthat (>= 3.0.0)
+License: GPL (>= 2)
+Archs: i386, x64

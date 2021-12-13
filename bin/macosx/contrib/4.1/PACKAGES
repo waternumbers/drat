@@ -65,3 +65,11 @@ Imports: graphics
 Suggests: knitr, rmarkdown, covr, pkgdown, testthat (>= 3.0.0)
 License: GPL (>= 2)
 MD5sum: 66ffa8e8951d714a05154a85b30bbb4c
+
+Package: FKF
+Version: 0.2.3
+Depends: R(>= 2.8)
+Imports: graphics
+Suggests: knitr, rmarkdown, covr, pkgdown, testthat (>= 3.0.0)
+License: GPL (>= 2)
+MD5sum: 7fbfc9630b283bd2af742e5142104b34
