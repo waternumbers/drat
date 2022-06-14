@@ -210,6 +210,15 @@ MD5sum: 0e641c26fb47022af79a2ed5a46fed91
 NeedsCompilation: yes
 
 Package: FKF
+Version: 0.2.3.1
+Depends: R (>= 3.5.0)
+Imports: graphics
+Suggests: knitr, rmarkdown, covr, pkgdown, testthat (>= 3.0.0)
+License: GPL (>= 2)
+MD5sum: 309ca444ac0de5492d365def21bd6e2d
+NeedsCompilation: yes
+
+Package: FKF
 Version: 0.2.3
 Depends: R(>= 2.8)
 Imports: graphics
